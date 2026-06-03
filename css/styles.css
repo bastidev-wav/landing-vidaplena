@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #e3e3e3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 130px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+header nav {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #6B6B6B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #333;
+}
+
+/* hero backgrpund con opacidad o mas oscuro */
+
+.hero {
+    background-image: url("../img/hero.webp") ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.hero h1 {
+    color: rgb(2, 128, 71);
+    font-size: 48px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.hero button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(2, 128, 71);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: rgb(2, 128, 71);
+}
+
+.beneficios {
+    padding: 50px 20px;
+}
+
+.beneficios h2 {
+    color: rgb(2, 128, 71);
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.beneficios-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.beneficio-item {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    transition: transform .3s ease;
+}
+
+.beneficio-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.beneficio-item h3 {
+    color: rgb(2, 128, 71);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.beneficio-item p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.testimonios {
+    padding: 50px 20px;
+}
+
+.testimonios h2 {
+    color: rgb(2, 128, 71);
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonios-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonio-item {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    transition: transform .3s ease;
+}
+
+.testimonio-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    background-color: #d7d7d7;
+}
+
+.testimonio-item h4 {
+    color: rgb(2, 128, 71);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonio-item p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+
