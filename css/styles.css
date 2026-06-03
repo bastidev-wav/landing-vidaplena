@@ -250,4 +250,14 @@ footer .redes-sociales a:hover {
     color: #333;
 }
 
+@media (max-width: 768px) {
+    .beneficios-container,
+    .testimonios-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
 
