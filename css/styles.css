@@ -48,10 +48,9 @@ header nav ul li a:hover {
     color: #333;
 }
 
-/* hero backgrpund con opacidad o mas oscuro */
 
 .hero {
-    background-image: url("../img/hero.webp") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero.webp") ;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -59,10 +58,10 @@ header nav ul li a:hover {
 }
 
 .hero h1 {
-    color: rgb(2, 128, 71);
+    color: rgb(207, 207, 207);
     font-size: 48px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 450px;
 }
 
 .hero button {
