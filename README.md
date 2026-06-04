@@ -4,7 +4,7 @@
 https://bastidev-wav.github.io/landing-vidaplena/
 
 ## Descripción
-Landing Page desarrollada para VidaPlena SpA.
+Landing Page desarrollada para VidaPlena.
 
 ## Tecnologías utilizadas
 - HTML5
